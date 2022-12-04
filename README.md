@@ -12,4 +12,4 @@ Data consisting of 150 images of various typed mathematical equations including,
 ## Next steps
 A more sophisicated model that consists of splitting an image of an equation to different components for fractions could be used to accurately predict complex equations, such as those that use fractions.
 ## References 
-[tutorial]: <https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_Seq2SeqTrainer.ipynb>
+<https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_Seq2SeqTrainer.ipynb>
