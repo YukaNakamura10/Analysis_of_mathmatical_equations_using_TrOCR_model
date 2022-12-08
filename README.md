@@ -42,14 +42,17 @@ The graph bellow compares the text outputted from both models with the given inp
 Model B had a far more accurate output compared to model A.<br\>
 The graph bellow shows the text outputted from model A with complex equations containing '\' LATEX notations.
 
-|Equation | Model A|
-|-----|--------|
-| | \x|
-| | a = = =^ = =|
-| | \logloglog \log|
-| |\\\xxxtoxxexpxtotoxexpexpxx}xtoexpxexp}xx|
-| | \frac4|
-| | 1q|
+|Equation | Model A| Correct notation|
+|-----|--------|-------|
+|![equation7](https://user-images.githubusercontent.com/92125894/206566861-bd6dad03-327d-4aba-a077-c526c0750878.jpg) | \x|\sqrt(x)=4|
+|![equation19](https://user-images.githubusercontent.com/92125894/206566913-5bdc5810-9941-41c7-9e0c-287211915f03.jpg)| a = = =^ = =|\cos^2 \theta + \sin^2 \theta = 1|
+|![equation20](https://user-images.githubusercontent.com/92125894/206567003-8b0fa9ce-9222-4ed0-9498-df400ccfe304.jpg)| \logloglog \log|\log a = \log b|
+|![equation62](https://user-images.githubusercontent.com/92125894/206567074-c674a921-8b8b-4fbb-85e5-f641fd898004.jpg)|\\\xxxtoxxexpxtotoxexpexpxx}xtoexpxexp}xx|\lim\limits_{x \to n-1} \exp(x) = 0|
+|![equation62](https://user-images.githubusercontent.com/92125894/206567172-646a7340-7d50-4600-92b1-58fe754b319f.jpg)| \frac4|\frac{\pi^4}{15}|
+|![equation75](https://user-images.githubusercontent.com/92125894/206567242-5496447f-ec64-4e45-933e-284d38773dee.jpg)| 1q|1\leq x|
+
+
+
 ## Conclusion
 Comparing model A and model B, model B generated a more accurate LATEX notation of equations. In addition, Model B had a lower training loss, validation loss, and character error rate than model A which couldd be due to two different reasons. First is that TrOCR is made to recognize handwritten texts, which makes it easier to recognize symbols that can be typed with a keyboard (without the '\' LATEX notation.). Another reason could be that model B repeats equations that use the same symbols (+, =, etc.), which allows the model to learn the pattern repeatedly, whereas model A contains a range of symbols (trigonomentry symbols, limits, fractions, summations) which are not repeated as much in the data set which makes it more difficult to model to recognize the pattern.
 
@@ -58,4 +61,5 @@ Form this, the conclusion for this project is that in order to fine-tune TrOCR t
 A more sophisicated model that consists of splitting an image of an equation to different components could be used to accurately predict complex equations, such as those that use fractions.Since TrOCR is created to recognize hand-written texts, if a data set containing images of hand-written equations are used, the model could be applied to translate handwritten equations to LATEX notations.
 ## References 
 [Fine tuning tutorial of TrOCR by NielsRogge](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_Seq2SeqTrainer.ipynb)
-[Inference tutorial by NeilsRogge](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Inference_with_TrOCR_%2B_Gradio_demo.ipynb)
+[Inference tutorial by Ne![Uploading equation7.jpg…]()
+ilsRogge](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Inference_with_TrOCR_%2B_Gradio_demo.ipynb)
