@@ -1,6 +1,6 @@
 # Analysis of mathmatical equations using TrOCR model
 ## Introduction
-The inspiration behind this research project was to find a way to translate images of mathematical equations into a format that is recognizable to many softwares. This research analyzes the result of training the TrOCR model to convert images of mathematical equations into LATEX Mathematical Symbols.
+The inspiration behind this research project was to find a way to translate images of mathematical equations into a format that is recognizable to many software. This research analyzes the result of training the TrOCR model to convert images of mathematical equations into LATEX Mathematical Symbols.
 
 In order to achieve this, transformers were used as a neural network model because of its effectiveness for natural language processing tasks. TrOCR model incorporates image Transformer encoder and text Transformer decoder, which made it suitable for this project. LATEX Mathematical Symbols are used to represent the equations as texts, as it is widely used in academia. 
 ## Fine tuning the TrOCR model
@@ -61,6 +61,5 @@ Form this, the conclusion for this project is that in order to fine-tune TrOCR t
 ## Next steps
 A more sophisicated model that consists of splitting an image of an equation to different components could be used to accurately predict complex equations, such as those that use fractions.Since TrOCR is created to recognize hand-written texts, if a data set containing images of hand-written equations are used, the model could be applied to translate handwritten equations to LATEX notations.
 ## References 
-[Fine tuning tutorial of TrOCR by NielsRogge](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_Seq2SeqTrainer.ipynb)
-[Inference tutorial by Ne![Uploading equation7.jpg…]()
-ilsRogge](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Inference_with_TrOCR_%2B_Gradio_demo.ipynb)
+[Fine tuning tutorial of TrOCR by NielsRogge](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_Seq2SeqTrainer.ipynb)<br>
+[Inference tutorial by NeilsRogge](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Inference_with_TrOCR_%2B_Gradio_demo.ipynb)
