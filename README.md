@@ -32,11 +32,11 @@ Model A is a model that was generated from fine-tuning the TrOCR model with data
 The graph bellow compares the text outputted from both models with the given input of the image of the equation.
 |Equation | Model A| Model B| Correct notation|
 |-----|--------|-----|----|
-|A|11121  |1+1=2|1+1=2
-|B|y===1=111|y=x+1|y=x+1
-| |3 |3-2=1 |3-2=1
-| |3xxx2xx15x21522|3(2+2) = 5 |3(x+2)=15
-| |xxx2xx +xx = + +x + + + 0 + +2 + + 4 + +| x^2 + 2x + 4 = 0|x^2 +2x+ 6 = 0
+|![equation1](https://user-images.githubusercontent.com/92125894/206562398-0da6ae01-d32e-4c28-b738-8606d25b8cb6.jpg)|11121  |1+1=2|1+1=2|
+|B|y===1=111|y=x+1|y=x+1|
+| |3 |3-2=1 |3-2=1|
+| |3xxx2xx15x21522|3(2+2) = 5 |3(x+2)=15|
+| |xxx2xx +xx = + +x + + + 0 + +2 + + 4 + +| x^2 + 2x + 4 = 0|x^2 +2x+ 6 = 0|
 Model B had a far more accurate output compared to model A.
 The graph bellow shows the text outputted from model A with equations which contain '\' LATEX notations.
 |Equation | Model A|
