@@ -39,7 +39,8 @@ The graph bellow compares the text outputted from both models with the given inp
 |![equation11](https://user-images.githubusercontent.com/92125894/206563981-3a33cec5-1005-4668-b477-0a9e58ef8ccf.jpg)|xxx2xx +xx = + +x + + + 0 + +2 + + 4 + +| x^2 + 2x + 4 = 0|x^2 +2x+ 6 = 0|
 
 
-Model B had a far more accurate output compared to model A.<br\>
+Model B had a far more accurate output compared to model A.
+
 The graph bellow shows the text outputted from model A with complex equations containing ' \ ' LATEX notations.
 
 |Equation | Model A| Correct notation|
