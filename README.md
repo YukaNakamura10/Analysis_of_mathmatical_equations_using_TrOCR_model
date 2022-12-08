@@ -1,6 +1,6 @@
 # Analysis of mathmatical equations using TrOCR model
 ## Introduction
-The inspiration behind this research project was to find a way to translate images of mathematical equations into a format that is recognizable to softwares, such as the Braille translation software (Duxbury Systems). This research analyzes the result of training the TrOCR model to convert images of mathematical equations into LATEX Mathematical Symbols.
+The inspiration behind this research project was to find a way to translate images of mathematical equations into a format that is recognizable to many softwares. This research analyzes the result of training the TrOCR model to convert images of mathematical equations into LATEX Mathematical Symbols.
 
 In order to achieve this, transformers were used as a neural network model because of its effectiveness for natural language processing tasks. TrOCR model incorporates image Transformer encoder and text Transformer decoder, which made it suitable for this project. LATEX Mathematical Symbols are used to represent the equations as texts, as it is widely used in academia. 
 ## Fine tuning the TrOCR model
