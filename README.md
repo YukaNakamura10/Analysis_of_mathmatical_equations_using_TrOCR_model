@@ -40,7 +40,7 @@ The graph bellow compares the text outputted from both models with the given inp
 
 
 Model B had a far more accurate output compared to model A.<br\>
-The graph bellow shows the text outputted from model A with complex equations containing '\' LATEX notations.
+The graph bellow shows the text outputted from model A with complex equations containing ' \ ' LATEX notations.
 
 |Equation | Model A| Correct notation|
 |-----|--------|-------|
