@@ -24,21 +24,24 @@ The folder 'A results' contain images of a table to training losses and evaluati
 
 |Data set  | Training loss| Validation loss| CER|
 |-----|--------|-----|-------------|
-|A|2.094900  |3.934913|0.817623
-|B|0.310400|1.556969|0.329670
+|A|2.094900  |3.934913|0.817623|
+|B|0.310400|1.556969|0.329670|
 ## Analysis of the model
 Model A is a model that was generated from fine-tuning the TrOCR model with data set A, whereas model B is a model that was genrated from fine-tuning the TrOCR model with data set B.
 
-The graph bellow compares the text outputted from both models with the given input of the image of the equation.
+The graph bellow compares the text outputted from both models with the given input of the image of the equation. The equations are from the 
 |Equation | Model A| Model B| Correct notation|
 |-----|--------|-----|----|
 |![equation1](https://user-images.githubusercontent.com/92125894/206562398-0da6ae01-d32e-4c28-b738-8606d25b8cb6.jpg)|11121  |1+1=2|1+1=2|
-|B|y===1=111|y=x+1|y=x+1|
-| |3 |3-2=1 |3-2=1|
-| |3xxx2xx15x21522|3(2+2) = 5 |3(x+2)=15|
-| |xxx2xx +xx = + +x + + + 0 + +2 + + 4 + +| x^2 + 2x + 4 = 0|x^2 +2x+ 6 = 0|
+|![equation2](https://user-images.githubusercontent.com/92125894/206562555-b0efceb9-ba58-474a-ab6a-b068bcfc9b1c.jpg)|y===1=111|y=x+1|y=x+1|
+|![equation4](https://user-images.githubusercontent.com/92125894/206562600-6191b648-9595-4d83-88ea-2ac4b81d64ce.jpg)|3 |3-2=1 |3-2=1|
+|![equation6](https://user-images.githubusercontent.com/92125894/206562686-ddd4072f-be6c-447f-b2c6-ab98c5e2e3e2.jpg)|3xxx2xx15x21522|3(2+2) = 5 |3(x+2)=15|
+|![equation11](https://user-images.githubusercontent.com/92125894/206563981-3a33cec5-1005-4668-b477-0a9e58ef8ccf.jpg)|xxx2xx +xx = + +x + + + 0 + +2 + + 4 + +| x^2 + 2x + 4 = 0|x^2 +2x+ 6 = 0|
+
+
 Model B had a far more accurate output compared to model A.
-The graph bellow shows the text outputted from model A with equations which contain '\' LATEX notations.
+The graph bellow shows the text outputted from model A with complex equations containing '\' LATEX notations.
+
 |Equation | Model A|
 |-----|--------|
 | | \x|
