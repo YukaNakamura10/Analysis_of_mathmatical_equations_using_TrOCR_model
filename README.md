@@ -27,8 +27,28 @@ The folder 'A results' contain images of a table to training losses and evaluati
 |A|2.094900  |3.934913|0.817623
 |B|0.310400|1.556969|0.329670
 ## Analysis of the model
+Model A is a model that was generated from fine-tuning the TrOCR model with data set A, whereas model B is a model that was genrated from fine-tuning the TrOCR model with data set B.
+
+The graph bellow compares the text outputted from both models with the given input of the image of the equation.
+|Equation | Model A| Model B| Correct notation|
+|-----|--------|-----|----|
+|A|11121  |1+1=2|1+1=2
+|B|y===1=111|y=x+1|y=x+1
+| |3 |3-2=1 |3-2=1
+| |3xxx2xx15x21522|3(2+2) = 5 |3(x+2)=15
+| |xxx2xx +xx = + +x + + + 0 + +2 + + 4 + +| x^2 + 2x + 4 = 0|x^2 +2x+ 6 = 0
+Model B had a far more accurate output compared to model A.
+The graph bellow shows the text outputted from model A with equations which contain '\' LATEX notations.
+|Equation | Model A|
+|-----|--------|
+| | \x|
+| | a = = =^ = =|
+| | \logloglog \log|
+| |\\\xxxtoxxexpxtotoxexpexpxx}xtoexpxexp}xx|
+| | \frac4|
+| | 1q|
 ## Conclusion
-Data set B had a lower training lossvalidation loss, and character error rate than data set A, which could be due to two different reasons. First is that TrOCR is made to recognize handwritten texts, which makes it easier to recognize symbols that can be typed with a keyboard (without the '\' LATEX notation.). Another reason could be that data set B repeats equations that use the same symbols (+, =, etc.), which allows the model to learn the pattern repeatedly, whereas data set A contains a range of symbols (trigonomentry symbols, limits, fractions, summations) which are not repeated as much in the data set which makes it more difficult to model to recognize the pattern.
+Comparing model A and model B, model B generated a more accurate LATEX notation of equations. In addition, Model B had a lower training loss, validation loss, and character error rate than model A which couldd be due to two different reasons. First is that TrOCR is made to recognize handwritten texts, which makes it easier to recognize symbols that can be typed with a keyboard (without the '\' LATEX notation.). Another reason could be that model B repeats equations that use the same symbols (+, =, etc.), which allows the model to learn the pattern repeatedly, whereas model A contains a range of symbols (trigonomentry symbols, limits, fractions, summations) which are not repeated as much in the data set which makes it more difficult to model to recognize the pattern.
 
 Form this, the conclusion for this project is that in order to fine-tune TrOCR to create a more accurate model that could handle different equations with a variety of mathematical symbols, a large number of data set which repeats the same LATEX symbols is required.
 ## Next steps
