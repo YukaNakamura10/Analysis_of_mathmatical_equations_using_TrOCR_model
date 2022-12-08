@@ -50,8 +50,7 @@ The graph bellow shows the text outputted from model A with complex equations co
 |![equation62](https://user-images.githubusercontent.com/92125894/206567074-c674a921-8b8b-4fbb-85e5-f641fd898004.jpg)|\\\xxxtoxxexpxtotoxexpexpxx}xtoexpxexp}xx|\lim\limits_{x \to n-1} \exp(x) = 0|
 |![equation62](https://user-images.githubusercontent.com/92125894/206567172-646a7340-7d50-4600-92b1-58fe754b319f.jpg)| \frac4|\frac{\pi^4}{15}|
 |![equation75](https://user-images.githubusercontent.com/92125894/206567242-5496447f-ec64-4e45-933e-284d38773dee.jpg)| 1q|1\leq x|
-
-
+Model A was not Able to generate accurate LATEX notations.
 
 ## Conclusion
 Comparing model A and model B, model B generated a more accurate LATEX notation of equations. In addition, Model B had a lower training loss, validation loss, and character error rate than model A which couldd be due to two different reasons. First is that TrOCR is made to recognize handwritten texts, which makes it easier to recognize symbols that can be typed with a keyboard (without the '\' LATEX notation.). Another reason could be that model B repeats equations that use the same symbols (+, =, etc.), which allows the model to learn the pattern repeatedly, whereas model A contains a range of symbols (trigonomentry symbols, limits, fractions, summations) which are not repeated as much in the data set which makes it more difficult to model to recognize the pattern.
