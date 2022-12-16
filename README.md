@@ -30,27 +30,27 @@ The folder 'A results' contain images of a table to training losses and evaluati
 Model A is a model that was generated from fine-tuning the TrOCR model with data set A, whereas model B is a model that was genrated from fine-tuning the TrOCR model with data set B.
 
 The graph bellow compares the text outputted from both models with the given input of the image of the equation. The equations are from the 
-|Equation | Model A| Model B| Correct notation|
-|-----|--------|-----|----|
-|![equation1](https://user-images.githubusercontent.com/92125894/206562398-0da6ae01-d32e-4c28-b738-8606d25b8cb6.jpg)|11121  |1+1=2|1+1=2|
-|![equation2](https://user-images.githubusercontent.com/92125894/206562555-b0efceb9-ba58-474a-ab6a-b068bcfc9b1c.jpg)|y===1=111|y=x+1|y=x+1|
-|![equation4](https://user-images.githubusercontent.com/92125894/206562600-6191b648-9595-4d83-88ea-2ac4b81d64ce.jpg)|3 |3-2=1 |3-2=1|
-|![equation6](https://user-images.githubusercontent.com/92125894/206562686-ddd4072f-be6c-447f-b2c6-ab98c5e2e3e2.jpg)|3xxx2xx15x21522|3(2+2) = 5 |3(x+2)=15|
-|![equation11](https://user-images.githubusercontent.com/92125894/206563981-3a33cec5-1005-4668-b477-0a9e58ef8ccf.jpg)|xxx2xx +xx = + +x + + + 0 + +2 + + 4 + +| x^2 + 2x + 4 = 0|x^2 +2x+ 6 = 0|
+|Equation |Original model| Model A| Model B| Correct notation|
+|-----|--------|-----|----|-----|
+|![equation1](https://user-images.githubusercontent.com/92125894/206562398-0da6ae01-d32e-4c28-b738-8606d25b8cb6.jpg)||11121  |1+1=2|1+1=2|
+|![equation2](https://user-images.githubusercontent.com/92125894/206562555-b0efceb9-ba58-474a-ab6a-b068bcfc9b1c.jpg)||y===1=111|y=x+1|y=x+1|
+|![equation4](https://user-images.githubusercontent.com/92125894/206562600-6191b648-9595-4d83-88ea-2ac4b81d64ce.jpg)||3 |3-2=1 |3-2=1|
+|![equation6](https://user-images.githubusercontent.com/92125894/206562686-ddd4072f-be6c-447f-b2c6-ab98c5e2e3e2.jpg)||3xxx2xx15x21522|3(2+2) = 5 |3(x+2)=15|
+|![equation11](https://user-images.githubusercontent.com/92125894/206563981-3a33cec5-1005-4668-b477-0a9e58ef8ccf.jpg)||xxx2xx +xx = + +x + + + 0 + +2 + + 4 + +| x^2 + 2x + 4 = 0|x^2 +2x+ 6 = 0|
 
 
 Model B had a far more accurate output compared to model A.
 
 The graph bellow shows the text outputted from model A with complex equations containing ' \ ' LATEX notations.
 
-|Equation | Model A| Correct notation|
-|-----|--------|-------|
-|![equation7](https://user-images.githubusercontent.com/92125894/206566861-bd6dad03-327d-4aba-a077-c526c0750878.jpg) | \x|\sqrt(x)=4|
-|![equation19](https://user-images.githubusercontent.com/92125894/206566913-5bdc5810-9941-41c7-9e0c-287211915f03.jpg)| a = = =^ = =|\cos^2 \theta + \sin^2 \theta = 1|
-|![equation20](https://user-images.githubusercontent.com/92125894/206567003-8b0fa9ce-9222-4ed0-9498-df400ccfe304.jpg)| \logloglog \log|\log a = \log b|
+|Equation |Original model| Model A| Correct notation|
+|-----|--------|--------|-------|
+|![equation7](https://user-images.githubusercontent.com/92125894/206566861-bd6dad03-327d-4aba-a077-c526c0750878.jpg) || \x|\sqrt(x)=4|
+|![equation19](https://user-images.githubusercontent.com/92125894/206566913-5bdc5810-9941-41c7-9e0c-287211915f03.jpg)|| a = = =^ = =|\cos^2 \theta + \sin^2 \theta = 1|
+|![equation20](https://user-images.githubusercontent.com/92125894/206567003-8b0fa9ce-9222-4ed0-9498-df400ccfe304.jpg)|| \logloglog \log|\log a = \log b|
 |![equation62](https://user-images.githubusercontent.com/92125894/206567074-c674a921-8b8b-4fbb-85e5-f641fd898004.jpg)|\\\xxxtoxxexpxtotoxexpexpxx}xtoexpxexp}xx|\lim\limits_{x \to n-1} \exp(x) = 0|
-|![equation62](https://user-images.githubusercontent.com/92125894/206567172-646a7340-7d50-4600-92b1-58fe754b319f.jpg)| \frac4|\frac{\pi^4}{15}|
-|![equation75](https://user-images.githubusercontent.com/92125894/206567242-5496447f-ec64-4e45-933e-284d38773dee.jpg)| 1q|1\leq x|
+|![equation62](https://user-images.githubusercontent.com/92125894/206567172-646a7340-7d50-4600-92b1-58fe754b319f.jpg)|| \frac4|\frac{\pi^4}{15}|
+|![equation75](https://user-images.githubusercontent.com/92125894/206567242-5496447f-ec64-4e45-933e-284d38773dee.jpg)|| 1q|1\leq x|
 
 Model A was not Able to generate accurate LATEX notations.
 
