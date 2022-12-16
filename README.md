@@ -48,7 +48,7 @@ The graph bellow shows the text outputted from model A with complex equations co
 |![equation7](https://user-images.githubusercontent.com/92125894/206566861-bd6dad03-327d-4aba-a077-c526c0750878.jpg) |VX - 4| \x|\sqrt(x)=4|
 |![equation19](https://user-images.githubusercontent.com/92125894/206566913-5bdc5810-9941-41c7-9e0c-287211915f03.jpg)|cos2 0 4sin2 0 - 1| a = = =^ = =|\cos^2 \theta + \sin^2 \theta = 1|
 |![equation20](https://user-images.githubusercontent.com/92125894/206567003-8b0fa9ce-9222-4ed0-9498-df400ccfe304.jpg)|loga-log b.| \loglloga-log b.oglog \log|\log a = \log b|
-|![equation62](https://user-images.githubusercontent.com/92125894/206567074-c674a921-8b8b-4fbb-85e5-f641fd898004.jpg)|a lim-explo ) -|\\\xxxtoxxexpxtotoxexpexpxx}xtoexpxexp}xx|\lim\limits_{x \to n-1} \exp(x) = 0|
+|![equation21](https://user-images.githubusercontent.com/92125894/208016925-6ba1552b-f138-4b03-9490-45bc4a938ad4.jpg)|a lim-explo ) -|\\\xxxtoxxexpxtotoxexpexpxx}xtoexpxexp}xx|\lim\limits_{x \to n-1} \exp(x) = 0|
 |![equation62](https://user-images.githubusercontent.com/92125894/206567172-646a7340-7d50-4600-92b1-58fe754b319f.jpg)|T.| \frac4|\frac{\pi^4}{15}|
 |![equation75](https://user-images.githubusercontent.com/92125894/206567242-5496447f-ec64-4e45-933e-284d38773dee.jpg)|1 S.C| 1q|1\leq x|
 
