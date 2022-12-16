@@ -50,7 +50,7 @@ The graph bellow shows the text outputted from model A with complex equations co
 |![equation20](https://user-images.githubusercontent.com/92125894/206567003-8b0fa9ce-9222-4ed0-9498-df400ccfe304.jpg)|| \logloglog \log|\log a = \log b|
 |![equation62](https://user-images.githubusercontent.com/92125894/206567074-c674a921-8b8b-4fbb-85e5-f641fd898004.jpg)|\\\xxxtoxxexpxtotoxexpexpxx}xtoexpxexp}xx|\lim\limits_{x \to n-1} \exp(x) = 0|
 |![equation62](https://user-images.githubusercontent.com/92125894/206567172-646a7340-7d50-4600-92b1-58fe754b319f.jpg)|| \frac4|\frac{\pi^4}{15}|
-|![equation75](https://user-images.githubusercontent.com/92125894/206567242-5496447f-ec64-4e45-933e-284d38773dee.jpg)|| 1q|1\leq x|
+|![equation75](https://user-images.githubusercontent.com/92125894/206567242-5496447f-ec64-4e45-933e-284d38773dee.jpg)|1 S.C| 1q|1\leq x|
 
 Model A was not Able to generate accurate LATEX notations.
 
