@@ -59,7 +59,7 @@ Comparing model A and model B, model B generated a more accurate LATEX notation 
 
 Form this, the conclusion for this project is that in order to fine-tune TrOCR to create a more accurate model that could handle different equations with a variety of mathematical symbols, a large number of data set which repeats the same LATEX symbols is required.
 ## Next steps
-A more sophisicated model that consists of splitting an image of an equation to different components could be used to accurately predict complex equations, such as those that use fractions.Since TrOCR is created to recognize hand-written texts, if a data set containing images of hand-written equations are used, the model could be applied to translate handwritten equations to LATEX notations.
+A more sophisicated model that consists of splitting an image of an equation to different components could be used to accurately predict complex equations, such as those that use fractions. Since TrOCR is created to recognize hand-written texts, if a data set containing images of hand-written equations are used, the model could be applied to translate handwritten equations to LATEX notations.
 ## References 
 [Fine-tuning tutorial for TrOCR by NielsRogge](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_Seq2SeqTrainer.ipynb)<br>
 [Inference tutorial by NeilsRogge](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Inference_with_TrOCR_%2B_Gradio_demo.ipynb)
